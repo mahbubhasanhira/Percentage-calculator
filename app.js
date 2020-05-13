@@ -12,10 +12,10 @@ Calculate.addEventListener('click', function(e){
 
 
     if(AmountNumber < 0 || PercentNumbr < 0){
-        alert('Please Enter A Posetive Number');
+        alert('Please, Fill in Both Feilds with Posetive Number!!');
     } 
     else if(Amount ===  '' || Percent === ''){
-        alert('Please Fulfil Both Field');
+        alert('Please, Fulfil Both Field!!');
     }
     else{
         const payMath  = (AmountNumber -(AmountNumber / 100) * PercentNumbr).toFixed(2);
@@ -25,12 +25,10 @@ Calculate.addEventListener('click', function(e){
        discount.textContent =`Discount Amount: ${discountMath}`;
     }
 
+});
 
-
-
-
-//    console.log(AmountNumber);
-//    console.log(Percent1);
-
+document.querySelector('#reload').addEventListener('click',function(e){
+    e.preventDefault();
+    window.location.reload();
 });
 
