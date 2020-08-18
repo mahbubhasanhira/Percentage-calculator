@@ -82,6 +82,10 @@ body{
 .footer_text{
     margin-top: 6px;
 }
+.footer_text img{
+	width: 30px;
+	height: 30px;
+}
 .footer_text h5 span{
     color: rgb(219, 29, 29);
 }
