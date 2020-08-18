@@ -1,11 +1,10 @@
 body{
     background-color:#21def0;
-    /* font-family: sans-serif; */
+    font-family: 'Sriracha', cursive;
 }
 
 #div-1{
     max-width: 70%;
-    margin-top: 0.2rem;
     background-color: rgb(92, 84, 84);
     color: white;
     margin-left: auto;
@@ -13,7 +12,7 @@ body{
     border: 2px solid black;
 }
 .card-header{
-    background-color: rgb(201, 202, 202);
+    background-color:  rgb(177, 73, 4);
     color: black;
     font-weight: bold;
     padding-top: .5rem;
@@ -31,7 +30,7 @@ body{
   
 }
 .card-body input:hover{
-    background-image: linear-gradient(90deg, rgb(177, 130, 125),rgb(200, 128, 115));
+    background-image: linear-gradient(90deg, rgb(181, 239, 255),rgb(139, 209, 250));
 }
 .card-body button {
     padding:2px 8px 2px;
@@ -39,33 +38,62 @@ body{
 
 #div-2{
     max-width: 70%;
-    background-color: rgb(168, 102, 164);
-    margin-top: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+    background-color: rgb(7, 60, 85);
+    margin: 5px auto;
     border: 2px solid rgb(0, 0, 0);
 }
 #result{
     font-size: 20px;
     font-weight: bold;
-    background-color: rgb(209, 72, 76);
+    background-color: rgba(14, 95, 4, 0.705);
 }
-.card-body2{
-    font-size: 16px;
+.card-body2 p{
+    font-size: 18px;
+    font-weight: 500;
     font-weight: bolder;
-    color: #aee203b0;
+    color: #fffafaf3;
 }
 
 #reload{
     padding:2px 8px 2px;
 }
 
-footer p{
-    width: 35%;
-    color: rgb(2, 2, 2);
-    font-size: 12px;
-    text-align: center;
-    margin: auto auto;
-    background-color:#ddcd98;
+
+.footer{
+    width: 100%;
+    padding: 20px;
+   margin: 0 auto 10px  auto;
+   border:1px solid gray;
+   border-radius: 3px;
+    background-color: rgb(179, 179, 179);
+}
+.social_img a img{
+    width: 40px;
+    height: 40px;
+    margin: 10px 7px;
+	display: inline-block;
+	
+}
+.social_img a img:hover{
+    transition: ease-in-out .2s;
+    box-shadow: 1px 1px 7px 7px #383535;
+	border-radius: 50%;
+}
+.footer_text{
+    margin-top: 6px;
+}
+.footer_text h5 span{
+    color: rgb(219, 29, 29);
+}
+.footer_text h6{
+    font-size: 15px;
+}
+
+@media screen and (max-width: 992px){
+    .card{
+        margin-top: 15px;
+    }
+    .social_img a img{
+       margin: 5px 2px;
+}
 }
