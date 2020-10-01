@@ -1,19 +1,17 @@
 body{
-    background-color:#21def0;
-    font-family: 'Sriracha', cursive;
+    background-color:#ff6260;
 }
 
 #div-1{
     max-width: 70%;
-    background-color: rgb(92, 84, 84);
+    background-color: #FF6262;
     color: white;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid black;
 }
 .card-header{
-    background-color:  rgb(177, 73, 4);
-    color: black;
+    background-color:  #ff6260;
+    color: white;
     font-weight: bold;
     padding-top: .5rem;
     padding-bottom: .5rem;
@@ -38,14 +36,13 @@ body{
 
 #div-2{
     max-width: 70%;
-    background-color: rgb(7, 60, 85);
+    background-color: #ff6260;
     margin: 5px auto;
-    border: 2px solid rgb(0, 0, 0);
 }
 #result{
     font-size: 20px;
     font-weight: bold;
-    background-color: rgba(14, 95, 4, 0.705);
+    background-color: #ff6240;
 }
 .card-body2 p{
     font-size: 18px;
@@ -71,7 +68,7 @@ body{
     width: 40px;
     height: 40px;
     margin: 10px 7px;
-	display: inline-block;
+    display: inline-block;
 	
 }
 .social_img a img:hover{
